@@ -270,8 +270,8 @@ fullstack-observability-stack/
 │   ├── index.html              # Datadog RUM Browser SDK integrated
 │   ├── app.js                  # CRUD operations with frontend structured logging
 │   └── styles.css
-├── screenshots/                # Datadog dashboard, APM, RUM, monitor screenshots
-├── datadog/
+├── Screenshots/                # Datadog dashboard, APM, RUM, monitor screenshots
+├── Datadog/
 │   └── dashboard.json          # Exportable Datadog dashboard — import into your own account
 ├── docker-compose.yml
 ├── .env.example
@@ -346,6 +346,6 @@ During incidents, knowing whether slowness is in the application layer or databa
 
 ## 👤 Author
 
-**ramya-rmkrsh** — Technical Support Engineer with 8+ years in production systems.
+**ramya-rmkrsh** — Technical Support Engineer with 8 years in production systems.
 
 [GitHub Profile](https://github.com/ramya-rmkrsh)
