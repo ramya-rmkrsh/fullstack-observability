@@ -1,4 +1,4 @@
-# 🐳 Fullstack Observability Stack
+# 🐳 Fullstack Observability
 
 A containerized full-stack CRUD application with end-to-end observability — structured log streaming, APM tracing, RUM (Real User Monitoring), operational dashboards, monitors, and SLOs via Datadog.
 
@@ -260,7 +260,7 @@ docker-compose up --build
 ## 📁 Project Structure
 
 ```
-fullstack-observability-stack/
+fullstack-observability/
 ├── backend/
 │   ├── app.py                  # Flask API — ddtrace, JSONFormatter, trace ID injection
 │   ├── gunicorn_config.py      # Gunicorn JSON log formatter
