@@ -1,10 +1,10 @@
 import mysql.connector
 
 conn = mysql.connector.connect(
-    host="localhost",
-    user="appuser",
-    password="app123",
-    database="mydatabase"
+     host=os.environ.get("DB_HOST"),
+     database=os.environ.get("DB_NAME"),
+     user=os.environ.get("DB_USER"),
+     password=os.environ.get("DB_PASSWORD")
 )
 
 print("DB connection established")
@@ -14,4 +14,3 @@ print(cursor.fetchall())
 print("Query executed")
 cursor.close()
 conn.close()
-
